@@ -1,0 +1,35 @@
+.back {
+  display: flex;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  min-height: 100%;
+  min-width: 100%;
+
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.formBox {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 90%;
+  width: 98%;
+  /* background-color: red; */
+  overflow-y: scroll;
+  margin-top: 5.7rem;
+}
+
+.MuiButton-containedPrimary {
+  height: 3rem;
+  width: 15rem;
+  top: 2rem;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
